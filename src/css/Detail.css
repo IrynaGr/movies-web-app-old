@@ -1,0 +1,91 @@
+:root {
+  --colorletra: #fff;
+}
+
+.card {
+  width: 15rem;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-details {
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards__title {
+  text-align: center;
+  margin-bottom: 50px;
+  color: var(--colorletra);
+}
+
+.cards__img {
+  display: block;
+  margin: auto;
+  width: 25%;
+  margin-right: 5%;
+}
+
+.detail-info {
+  display: flex;
+}
+
+.overview {
+  max-width: 610px;
+  float: left;
+  line-height: 20px;
+  margin: 25px 10px 0 10px;
+  color: #fff;
+}
+
+.overview-text {
+  margin-top: 10px
+}
+
+.button {
+  margin-top: 50px;
+}
+
+.button button{
+  width: 130px;
+  margin: auto;
+  height: 50px;
+}
+
+button {
+  display: block;
+  background-color: #213788;
+  border-color: #fff;
+  color: var(--colorletra);
+}
+
+@media screen and (min-width: 768px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    height: 550px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .cards__pill{
+    width: 90%;
+    text-align: center;
+  }
+  .button button{
+    width: 120px;
+  }
+}

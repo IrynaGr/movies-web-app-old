@@ -1,0 +1,17 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    list-style: none;
+    color: #fff;
+    margin-top: 40px;
+    border-radius: .25rem;
+}
+
+.page-item {
+  padding-right: 8px;
+}
+
+.page-width{
+  width: 100px;
+}

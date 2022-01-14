@@ -1,0 +1,36 @@
+.nav-link{
+  text-transform: capitalize;
+}
+
+.navbar {
+  background-color: #121114;
+}
+
+.navbar-dark .navbar-nav .nav-link { 
+color: #ffff;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+  font-weight: 900;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.active{
+  background-color: #4e4b4b;
+}
+
+a:hover {
+  background-color: #4e4b4b;
+  text-decoration: none;
+}
+
+@media screen and (max-width:500px) {
+  .navbar-toggler{
+    margin-right: 0px
+  }
+}

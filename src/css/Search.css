@@ -1,0 +1,24 @@
+.input-text{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    height: 40%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 38px;
+    border-radius: 24px;
+    text-align: center;
+    outline: none;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+@media screen and (max-width:500px) {
+    .input-text {
+        width: 60%;
+     /*    width: 200px; */
+    }
+}

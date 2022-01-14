@@ -1,0 +1,94 @@
+.card {
+    cursor: pointer;
+}
+
+.card .card-img-top:hover {
+    -webkit-filter: brightness(30%);
+}
+
+.card-title{
+    font-size: 20px;
+    width: 212px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.card-strong{
+    margin: 10px;
+}
+
+.btn{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#boton{
+    width: 100%;
+    margin-top: -2px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #2861a7;
+    border-color: #2861a7;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #213788;
+    border-color: #213788;
+}
+
+.btn-success:focus {
+    color: #fff;
+    background-color: #213788;
+    border-color: #213788;
+    box-shadow: 0 0 0 0.2rem rgba(157, 195, 226, 0.5);
+}
+
+.btn-success:active {
+    color: #fff;
+    background-color: #213788 !important; 
+    border-color: #213788 !important;
+}
+
+.card .play-button {
+    display: none;
+}
+
+.card:hover .play-button {
+    display: block;
+}
+
+.play-button {
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.play-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 18px;
+    background-size: 20px 20px;
+    background-image: url("../images/play.jpg");
+}
+
+.card .play-button .play-icon:hover img  {
+    -webkit-filter: brightness(30%);
+}
+
+.card-date {
+    padding-top:30px;
+}
+
