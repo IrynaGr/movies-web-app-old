@@ -68,6 +68,12 @@ button {
   color: var(--colorletra);
 }
 
+.spinner {
+  text-align: center;
+  color: var(--colorletra);
+  margin-top: 20%;
+}
+
 @media screen and (min-width: 768px) {
   .row {
     display: flex;

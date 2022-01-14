@@ -16,7 +16,7 @@ To run this project, install it locally using npm:
 
 ```
 $ git clone https://github.com/IrynaGr/movies-web-app.git
-$ cd ../movies-web-app
+$ cd movies-web-app
 $ npm install
 $ npm start
 ```
